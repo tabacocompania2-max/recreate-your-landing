@@ -43,7 +43,6 @@ const CouponPopup = () => {
         <div
           className="fixed inset-0 z-50 flex items-center justify-center p-4"
           style={{ backgroundColor: 'rgba(0,0,0,0.7)' }}
-          onClick={() => setShowModal(false)}
         >
           <div
             className="bg-card rounded-xl p-6 max-w-sm w-full relative border-2 border-gold shadow-2xl"
