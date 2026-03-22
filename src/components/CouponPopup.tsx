@@ -43,19 +43,11 @@ const CouponPopup = () => {
         <div
           className="fixed inset-0 z-50 flex items-center justify-center p-4"
           style={{ backgroundColor: 'rgba(0,0,0,0.7)' }}
-          onClick={() => setShowModal(false)}
         >
           <div
             className="bg-card rounded-xl p-6 max-w-sm w-full relative border-2 border-gold shadow-2xl"
             onClick={(e) => e.stopPropagation()}
           >
-            <button
-              onClick={() => setShowModal(false)}
-              className="absolute top-3 right-3 text-muted-foreground hover:text-foreground transition-colors"
-              aria-label="Fermer"
-            >
-              <X className="w-5 h-5" />
-            </button>
 
             <div className="text-center">
               <img src={ebookCover} alt="Pharmacie de Grand-Mère" className="w-24 mx-auto rounded-lg mb-4 shadow-md" />
