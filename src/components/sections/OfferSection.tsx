@@ -73,7 +73,9 @@ const OfferSection = ({ hotmartUrl }: OfferSectionProps) => (
 
             <div className="text-center">
               <a
-                href={hotmartUrl}
+                href="https://pay.hotmart.com/Y105032981Q?checkoutMode=10"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="cta-button inline-flex items-center gap-2 no-underline text-xl"
               >
                 📥 OUI, JE VEUX MES 250 REMÈDES
