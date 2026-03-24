@@ -52,21 +52,21 @@ const CouponPopup = () => {
             <div className="text-center">
               <img src={ebookCover} alt="Pharmacie de Grand-Mère" className="w-24 mx-auto rounded-lg mb-4 shadow-md" />
 
-              <h3 className="text-sm text-parchment mb-1">Seulement aujourd'hui ({dateStr}) —</h3>
-              <h2 className="text-xl font-bold text-gold mb-3">Vous avez droit à une réduction de 78%</h2>
+              <h3 className="text-sm text-parchment mb-1">⚠️ Attention — uniquement aujourd'hui ({dateStr})</h3>
+              <h2 className="text-xl font-bold text-gold mb-3">Réduction EXCEPTIONNELLE de 78% — avant suppression</h2>
               <p className="text-parchment text-sm mb-4">
-                Cliquez sur le bouton pour obtenir la réduction et les cadeaux gratuits.
+                Cette réduction disparaît à minuit. Cliquez maintenant pour sécuriser votre prix et vos bonus gratuits.
               </p>
 
               <p className="text-xs text-muted-foreground mb-4">
-                Le code coupon <strong className="text-gold">{COUPON_CODE}</strong> ne peut être utilisé qu'aujourd'hui.
+                Code <strong className="text-gold">{COUPON_CODE}</strong> — usage unique, expire aujourd'hui.
               </p>
 
               <button
                 onClick={applyCoupon}
                 className="cta-button w-full text-base"
               >
-                Appliquer le Coupon
+                🔒 Sécuriser ma réduction maintenant
               </button>
             </div>
           </div>
@@ -87,8 +87,8 @@ const CouponPopup = () => {
           <div className="flex gap-3">
             <img src={ebookCover} alt="Pharmacie de Grand-Mère" className="w-14 h-auto rounded shadow-sm flex-shrink-0" />
             <div className="text-xs">
-              <p className="text-gold font-bold mb-1">Votre réduction est activée ! Obtenez "La Pharmacie de Grand-Mère" + 4 cadeaux offerts dès maintenant</p>
-              <p className="text-parchment text-[11px]">La Pharmacie de Grand-Mère + les 4 cadeaux gratuits</p>
+              <p className="text-gold font-bold mb-1">⏰ Votre réduction expire bientôt ! Protégez votre famille avant qu'il ne soit trop tard</p>
+              <p className="text-parchment text-[11px]">250 remèdes + 4 bonus offerts</p>
             </div>
           </div>
 
@@ -105,7 +105,7 @@ const CouponPopup = () => {
             className="block mt-3 w-full gold-gradient text-center font-bold text-sm py-2.5 rounded-lg transition-all duration-200 no-underline"
             style={{ color: 'hsl(25 20% 8%)' }}
           >
-            Ajouter au panier
+            Protéger ma famille maintenant
           </a>
 
           <p className="text-center text-xs text-destructive font-bold mt-2">

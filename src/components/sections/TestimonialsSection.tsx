@@ -3,12 +3,12 @@ import { Star, Quote } from 'lucide-react';
 
 const TestimonialsSection = () => {
   const testimonials = [
-    { name: "Marie-Claire D.", city: "Lyon", text: "J'ai retrouvé les remèdes que ma grand-mère utilisait en Provence. La tisane de thym pour la gorge, c'est exactement ce qu'elle me préparait ! Un trésor inestimable.", age: "62 ans" },
-    { name: "Jean-Pierre L.", city: "Bordeaux", text: "En tant que médecin à la retraite, je suis impressionné par la qualité des informations. Ces remèdes ont fait leurs preuves pendant des générations. Un excellent complément.", age: "68 ans" },
-    { name: "Isabelle M.", city: "Strasbourg", text: "Le format PDF est parfait — je l'ai reçu en 30 secondes. Je consulte mon guide chaque semaine. Les bonus sur les herbes régionales d'Alsace sont formidables.", age: "45 ans" },
-    { name: "François R.", city: "Marseille", text: "Un condensé de sagesse ancestrale provençale. Ma femme et moi l'utilisons au quotidien. C'est devenu notre référence santé naturelle. Merci pour ce travail remarquable.", age: "55 ans" },
-    { name: "Catherine B.", city: "Toulouse", text: "Le calendrier de plantes est devenu mon guide de jardinage préféré ! Je sais maintenant exactement quand récolter chaque herbe. Mes enfants adorent m'aider.", age: "41 ans" },
-    { name: "Henri G.", city: "Rennes", text: "Je cherchais des remèdes bretons de ma famille — ils y sont tous ! La section respiratoire m'a particulièrement aidé cet hiver. Un investissement que je ne regrette pas.", age: "58 ans" },
+    { name: "Marie-Claire D.", city: "Lyon", text: "Pendant le confinement, impossible de voir un médecin. Grâce à ce guide, j'ai pu soulager la bronchite de mon mari avec du thym et du miel. Sans ça, je ne sais pas ce qu'on aurait fait.", age: "62 ans" },
+    { name: "Jean-Pierre L.", city: "Bordeaux", text: "En tant que médecin retraité, je peux vous dire que ces remèdes marchent. Nos ancêtres n'avaient pas de pharmacies — et ils survivaient. Ce guide est une assurance vie pour votre famille.", age: "68 ans" },
+    { name: "Isabelle M.", city: "Strasbourg", text: "Ma fille de 8 ans avait de la fièvre un dimanche soir. Pharmacie fermée. J'ai ouvert le guide sur mon téléphone et j'ai trouvé la solution en 2 minutes. Ce guide m'a évité la panique.", age: "45 ans" },
+    { name: "François R.", city: "Marseille", text: "J'ai arrêté 3 médicaments chimiques depuis que j'utilise ce guide. Mon médecin n'en revient pas. Les remèdes de nos grands-parents sont plus puissants qu'on ne le croit.", age: "55 ans" },
+    { name: "Catherine B.", city: "Toulouse", text: "Avec la hausse des prix en pharmacie, ce guide nous fait économiser des centaines d'euros par an. Et en plus, c'est naturel. Mes enfants adorent préparer les tisanes avec moi.", age: "41 ans" },
+    { name: "Henri G.", city: "Rennes", text: "Quand j'ai vu les pénuries de médicaments aux infos, j'ai su que j'avais pris la bonne décision. Ce guide, c'est mon plan B. Et franchement, il devrait être dans chaque foyer français.", age: "58 ans" },
   ];
 
   return (
@@ -16,10 +16,10 @@ const TestimonialsSection = () => {
       <div className="container max-w-3xl mx-auto">
         <ScrollReveal>
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-2 text-gold">
-            Ce que disent nos lecteurs
+            Des familles françaises déjà protégées
           </h2>
           <p className="text-center text-parchment mb-10 text-lg">
-            Plus de 2 400 familles françaises utilisent déjà la Pharmacie de Grand-Mère
+            +2 400 personnes ont déjà fait le choix de ne plus dépendre uniquement des pharmacies
           </p>
         </ScrollReveal>
 

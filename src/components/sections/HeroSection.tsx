@@ -27,7 +27,7 @@ const HeroSection = () => (
 
       <ScrollReveal delay={200}>
         <p className="text-lg text-parchment mb-10 max-w-2xl mx-auto leading-relaxed">
-          250 remèdes naturels français transmis de génération en génération — enfin réunis dans un seul guide
+          Et si demain les pharmacies ferment, les prix explosent ou les médicaments manquent… <strong className="text-gold">saurez-vous protéger votre famille ?</strong> 250 remèdes naturels que vos grands-parents maîtrisaient — et que vous avez oubliés.
         </p>
       </ScrollReveal>
 
@@ -45,7 +45,7 @@ const HeroSection = () => (
         <div className="flex flex-wrap justify-center gap-6 mb-10">
           {[
             { icon: BookOpen, label: '250 Remèdes' },
-            { icon: Users, label: '+2 400 lecteurs' },
+            { icon: Users, label: '+2 400 familles protégées' },
             { icon: Star, label: '4.9/5 étoiles' },
           ].map((stat, i) => (
             <div key={i} className="flex items-center gap-2 text-gold-light">
@@ -62,11 +62,11 @@ const HeroSection = () => (
           onClick={(e) => { e.preventDefault(); document.getElementById('offer')?.scrollIntoView({ behavior: 'smooth' }); }}
           className="cta-button inline-block text-center no-underline"
         >
-          📥 TÉLÉCHARGER MON GUIDE MAINTENANT
+          📥 PROTÉGER MA FAMILLE MAINTENANT
         </a>
         <p className="mt-4 text-sm text-muted-foreground flex items-center justify-center gap-2">
           <Lock className="w-4 h-4" />
-          Paiement 100% sécurisé — Livraison instantanée par e-mail
+          Paiement 100% sécurisé — Accès instantané par e-mail
         </p>
       </ScrollReveal>
     </div>

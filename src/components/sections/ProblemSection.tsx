@@ -8,10 +8,10 @@ const ProblemSection = () => (
     <div className="container max-w-3xl mx-auto">
       <ScrollReveal>
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-gold">
-          Saviez-vous que 73% des Français ne connaissent plus les remèdes que leurs grands-parents utilisaient au quotidien ?
+          Que ferez-vous le jour où les pharmacies ne pourront plus vous aider ?
         </h2>
         <p className="text-center text-parchment mb-10 text-lg leading-relaxed">
-          Pendant des siècles, chaque famille française avait son propre « cahier de remèdes » — transmis de mère en fille, de père en fils. Des solutions simples, naturelles, efficaces.
+          Pénuries de médicaments, prix qui explosent, crises sanitaires… <strong className="text-gold">ce n'est pas de la fiction, c'est déjà en train d'arriver.</strong> Et pendant ce temps, les remèdes que nos grands-parents utilisaient chaque jour — ceux qui marchaient vraiment — disparaissent avec eux dans l'oubli.
         </p>
       </ScrollReveal>
 
@@ -25,9 +25,10 @@ const ProblemSection = () => (
 
       <div className="space-y-4 mb-10">
         {[
-          "Vous achetez des médicaments chimiques pour des problèmes que le thym ou la camomille pourraient résoudre ?",
-          "Votre grand-mère savait soulager un mal de gorge, une insomnie ou un problème digestif — mais personne ne vous a transmis ses recettes ?",
-          "Vous aimeriez prendre soin de votre famille naturellement, mais vous ne savez pas par où commencer ?",
+          "Votre enfant a de la fièvre à 23h et la pharmacie est fermée — vous faites quoi ?",
+          "Une crise sanitaire éclate et les rayons se vident en quelques heures — vous êtes préparé ?",
+          "Vous dépensez des dizaines d'euros chaque mois en médicaments chimiques pour des problèmes que le thym ou le miel pourraient résoudre…",
+          "Votre grand-mère savait exactement quoi faire face à une toux, une insomnie, une douleur — mais personne ne vous a transmis ces savoirs.",
         ].map((text, i) => (
           <ScrollReveal key={i} delay={200 + i * 100}>
             <div className="flex items-start gap-3 p-4 bg-wood rounded-lg">
@@ -48,8 +49,8 @@ const ProblemSection = () => (
 
       <ScrollReveal delay={600}>
         <blockquote className="text-center text-xl italic text-gold-light">
-          <p>« Ces savoirs précieux sont en train de disparaître…</p>
-          <p className="mt-2 font-bold">Nous les avons sauvegardés pour vous. »</p>
+          <p>« Chaque jour qui passe, un remède ancestral meurt avec la génération qui le connaissait…</p>
+          <p className="mt-2 font-bold">Nous les avons sauvés. Avant qu'il ne soit trop tard. »</p>
         </blockquote>
       </ScrollReveal>
     </div>
