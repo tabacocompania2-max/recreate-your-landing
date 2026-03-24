@@ -4,13 +4,13 @@ import { ChevronDown } from 'lucide-react';
 
 const FAQSection = () => {
   const faqs = [
-    { q: "Comment vais-je recevoir mon guide ?", a: "Immédiatement. En moins de 30 secondes après votre paiement, vous recevez un e-mail avec tous vos PDF — le guide principal + les 4 bonus. Lisez-le sur votre téléphone, tablette ou ordinateur. Imprimez-le si vous voulez l'avoir en cas de coupure internet." },
-    { q: "Je n'y connais rien en plantes. C'est pour moi ?", a: "C'est EXACTEMENT pour vous. Chaque remède est expliqué comme si votre grand-mère vous le montrait : étape par étape, avec des ingrédients que vous trouvez au marché ou dans votre jardin. Aucune connaissance préalable nécessaire." },
-    { q: "Est-ce que ça remplace mon médecin ?", a: "Ce guide est un complément puissant, pas un remplacement. Mais posez-vous cette question : que ferez-vous quand votre médecin ne sera PAS disponible ? Un dimanche soir ? Pendant une grève ? En cas de crise ? C'est là que ce guide devient indispensable." },
-    { q: "Combien de temps ai-je accès au guide ?", a: "À VIE. Une fois téléchargé, il est à vous pour toujours. Transmettez-le à vos enfants, vos petits-enfants. C'est votre héritage familial de santé naturelle." },
-    { q: "Le paiement est-il sécurisé ?", a: "100% sécurisé. Le paiement est traité par Hotmart, plateforme internationale utilisée par des millions de personnes. Vos données bancaires sont protégées par cryptage SSL de niveau bancaire." },
-    { q: "Et si ça ne me plaît pas ?", a: "Vous avez 30 jours pour tester. Si le guide ne vous convient pas — pour N'IMPORTE quelle raison — vous êtes remboursé intégralement. Pas de justification, pas de paperasse. Un simple e-mail suffit." },
-    { q: "Pourquoi ce prix si bas ?", a: "Parce que notre mission est de remettre ce savoir entre les mains du plus grand nombre de familles françaises possible. Ce prix ne durera pas éternellement — il augmentera dès que nous aurons atteint notre objectif de diffusion." },
+    { q: "Je reçois quoi exactement, et quand ?", a: "30 secondes après votre paiement, vous recevez un e-mail avec le guide principal (250 remèdes) + les 4 bonus en PDF. Vous pouvez le lire sur votre téléphone, tablette ou ordinateur. Vous pouvez aussi l'imprimer et le ranger dans votre trousse de premiers secours. C'est à vous pour toujours." },
+    { q: "Je n'y connais rien en plantes. C'est vraiment pour moi ?", a: "C'est justement pour ça qu'on l'a créé. Chaque remède est écrit comme une recette de cuisine : étape 1, étape 2, étape 3. Avec des ingrédients que vous trouvez au supermarché ou dans votre jardin. Si vous savez faire une tisane, vous savez utiliser ce guide. Votre grand-mère n'avait pas de diplôme non plus." },
+    { q: "Est-ce que ça remplace un médecin ?", a: "Non, et ce n'est pas le but. Mais répondez honnêtement : combien de fois avez-vous eu besoin d'aide un dimanche soir, pendant les vacances, ou quand le médecin ne prenait plus de patients ? Ce guide est votre filet de sécurité pour les 90% de situations où vous n'avez pas besoin d'un médecin — mais où vous ne savez pas quoi faire." },
+    { q: "29,90 € pour un PDF, c'est pas cher. C'est sérieux ?", a: "C'est 0,12 € par remède. Moins cher qu'un café. Le prix est bas volontairement : notre objectif est que le maximum de familles françaises aient accès à ce savoir AVANT la prochaine crise. Ce prix augmentera. La question n'est pas « est-ce que ça vaut 29,90 € ? » — c'est « combien ça vaudra le jour où votre enfant est malade et que la pharmacie est fermée ? »" },
+    { q: "Le paiement est-il sécurisé ?", a: "100%. Le paiement est traité par Hotmart, une plateforme internationale utilisée par plus de 30 millions de personnes. Cryptage SSL bancaire. Vos données ne sont jamais partagées. Vous pouvez payer par carte bancaire ou PayPal." },
+    { q: "Et si je n'aime pas le guide ?", a: "Vous avez 30 jours. Pas 7. Pas 14. Trente jours complets pour tester, essayer les remèdes, et décider. Si vous n'êtes pas satisfait — pour n'importe quelle raison — un e-mail suffit. Remboursement intégral, sans discussion. On l'a fait plus de 200 fois et on n'a jamais refusé." },
+    { q: "Pourquoi je devrais vous faire confiance ?", a: "Ne nous faites pas confiance. Faites confiance aux 2 400+ personnes qui utilisent déjà ce guide. Faites confiance à la garantie de 30 jours qui élimine tout risque pour vous. Et surtout, faites confiance à votre grand-mère — parce que ces remèdes, c'est elle qui les utilisait." },
   ];
 
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -20,7 +20,7 @@ const FAQSection = () => {
       <div className="container max-w-3xl mx-auto">
         <ScrollReveal>
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 text-gold">
-            Vos questions, nos réponses
+            Questions fréquentes
           </h2>
         </ScrollReveal>
 

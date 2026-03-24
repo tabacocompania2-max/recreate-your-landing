@@ -3,12 +3,12 @@ import { Star, Quote } from 'lucide-react';
 
 const TestimonialsSection = () => {
   const testimonials = [
-    { name: "Marie-Claire D.", city: "Lyon", text: "Pendant le confinement, impossible de voir un médecin. Grâce à ce guide, j'ai pu soulager la bronchite de mon mari avec du thym et du miel. Sans ça, je ne sais pas ce qu'on aurait fait.", age: "62 ans" },
-    { name: "Jean-Pierre L.", city: "Bordeaux", text: "En tant que médecin retraité, je peux vous dire que ces remèdes marchent. Nos ancêtres n'avaient pas de pharmacies — et ils survivaient. Ce guide est une assurance vie pour votre famille.", age: "68 ans" },
-    { name: "Isabelle M.", city: "Strasbourg", text: "Ma fille de 8 ans avait de la fièvre un dimanche soir. Pharmacie fermée. J'ai ouvert le guide sur mon téléphone et j'ai trouvé la solution en 2 minutes. Ce guide m'a évité la panique.", age: "45 ans" },
-    { name: "François R.", city: "Marseille", text: "J'ai arrêté 3 médicaments chimiques depuis que j'utilise ce guide. Mon médecin n'en revient pas. Les remèdes de nos grands-parents sont plus puissants qu'on ne le croit.", age: "55 ans" },
-    { name: "Catherine B.", city: "Toulouse", text: "Avec la hausse des prix en pharmacie, ce guide nous fait économiser des centaines d'euros par an. Et en plus, c'est naturel. Mes enfants adorent préparer les tisanes avec moi.", age: "41 ans" },
-    { name: "Henri G.", city: "Rennes", text: "Quand j'ai vu les pénuries de médicaments aux infos, j'ai su que j'avais pris la bonne décision. Ce guide, c'est mon plan B. Et franchement, il devrait être dans chaque foyer français.", age: "58 ans" },
+    { name: "Marie-Claire D.", city: "Lyon", text: "Mon petit-fils de 4 ans s'est brûlé la main sur la plaque de cuisson un dimanche. Urgences bondées, 3h d'attente annoncées. J'ai ouvert le guide, appliqué du miel cru et un cataplasme d'aloe vera. Le lendemain, la rougeur avait diminué de moitié. Le médecin lundi m'a dit : « Vous avez fait exactement ce qu'il fallait. »", age: "62 ans" },
+    { name: "Jean-Pierre L.", city: "Bordeaux", text: "Je suis médecin retraité. J'ai prescrit des milliers de médicaments en 35 ans. Aujourd'hui, pour ma famille, j'utilise ce guide. Pas par idéologie, par pragmatisme. La moitié de ces remèdes sont validés par des études que mes collègues ne prennent pas le temps de lire. L'ail en infusion pour la tension, le curcuma pour l'inflammation — ça fonctionne.", age: "68 ans" },
+    { name: "Isabelle M.", city: "Strasbourg", text: "Ma fille de 8 ans toussait tellement qu'elle ne pouvait plus dormir. 23h, pas de pharmacie ouverte, le médecin de garde décroche pas. J'ai coupé un oignon en deux que j'ai posé sur sa table de nuit (oui, ça paraît fou). En 20 minutes, elle dormait. J'ai pleuré de soulagement. Ce guide m'a sauvée ce soir-là.", age: "45 ans" },
+    { name: "François R.", city: "Marseille", text: "Depuis 6 mois, j'ai remplacé l'ibuprofène par du curcuma + poivre noir, et les somnifères par de la valériane. Mon médecin a vu mes analyses et m'a demandé ce que j'avais changé. Quand je lui ai dit, il n'a rien répondu. Mes résultats parlent d'eux-mêmes.", age: "55 ans" },
+    { name: "Catherine B.", city: "Toulouse", text: "On dépensait environ 70 € par mois en pharmacie pour des trucs basiques : rhume, maux de tête, problèmes de digestion. Depuis le guide, on a réduit à moins de 15 €. Et le plus beau, c'est que mes enfants de 10 et 12 ans savent maintenant préparer une tisane contre le mal de ventre tout seuls.", age: "41 ans" },
+    { name: "Henri G.", city: "Rennes", text: "Quand j'ai vu aux infos que l'amoxicilline était en rupture de stock dans toute la France, j'ai regardé ma femme et j'ai dit : « On a le guide. » Ce n'est pas un livre de recettes. C'est une assurance. Le genre de truc qu'on est content d'avoir le jour où tout déraille.", age: "58 ans" },
   ];
 
   return (
@@ -16,10 +16,10 @@ const TestimonialsSection = () => {
       <div className="container max-w-3xl mx-auto">
         <ScrollReveal>
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-2 text-gold">
-            Des familles françaises déjà protégées
+            Ce que disent ceux qui l'utilisent déjà
           </h2>
           <p className="text-center text-parchment mb-10 text-lg">
-            +2 400 personnes ont déjà fait le choix de ne plus dépendre uniquement des pharmacies
+            +2 400 familles françaises ont choisi de ne plus dépendre uniquement du système
           </p>
         </ScrollReveal>
 

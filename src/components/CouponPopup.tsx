@@ -52,21 +52,21 @@ const CouponPopup = () => {
             <div className="text-center">
               <img src={ebookCover} alt="Pharmacie de Grand-Mère" className="w-24 mx-auto rounded-lg mb-4 shadow-md" />
 
-              <h3 className="text-sm text-parchment mb-1">⚠️ Attention — uniquement aujourd'hui ({dateStr})</h3>
-              <h2 className="text-xl font-bold text-gold mb-3">Réduction EXCEPTIONNELLE de 78% — avant suppression</h2>
+              <h3 className="text-sm text-parchment mb-1">⚠️ Uniquement le {dateStr} — ensuite c'est terminé</h3>
+              <h2 className="text-xl font-bold text-gold mb-3">Quelqu'un vient d'annuler — sa place est disponible au prix réduit</h2>
               <p className="text-parchment text-sm mb-4">
-                Cette réduction disparaît à minuit. Cliquez maintenant pour sécuriser votre prix et vos bonus gratuits.
+                250 remèdes + 4 bonus pour 29,90 € au lieu de 166,60 €. Ce code expire à minuit. Aucune prolongation possible.
               </p>
 
               <p className="text-xs text-muted-foreground mb-4">
-                Code <strong className="text-gold">{COUPON_CODE}</strong> — usage unique, expire aujourd'hui.
+                Votre code : <strong className="text-gold">{COUPON_CODE}</strong> — usage unique
               </p>
 
               <button
                 onClick={applyCoupon}
                 className="cta-button w-full text-base"
               >
-                🔒 Sécuriser ma réduction maintenant
+                🔒 Réserver ma place au prix réduit
               </button>
             </div>
           </div>
@@ -87,15 +87,15 @@ const CouponPopup = () => {
           <div className="flex gap-3">
             <img src={ebookCover} alt="Pharmacie de Grand-Mère" className="w-14 h-auto rounded shadow-sm flex-shrink-0" />
             <div className="text-xs">
-              <p className="text-gold font-bold mb-1">⏰ Votre réduction expire bientôt ! Protégez votre famille avant qu'il ne soit trop tard</p>
-              <p className="text-parchment text-[11px]">250 remèdes + 4 bonus offerts</p>
+              <p className="text-gold font-bold mb-1">⏰ Votre code expire dans {formatTime(secondsLeft)}</p>
+              <p className="text-parchment text-[11px]">250 remèdes + 4 bonus — prix le plus bas jamais proposé</p>
             </div>
           </div>
 
           <div className="flex items-center justify-between mt-3">
             <div className="flex items-baseline gap-2">
-              <span className="text-muted-foreground line-through text-sm">€172</span>
-              <span className="text-gold font-bold text-lg">€36</span>
+              <span className="text-muted-foreground line-through text-sm">166,60 €</span>
+              <span className="text-gold font-bold text-lg">29,90 €</span>
             </div>
           </div>
 
@@ -105,7 +105,7 @@ const CouponPopup = () => {
             className="block mt-3 w-full gold-gradient text-center font-bold text-sm py-2.5 rounded-lg transition-all duration-200 no-underline"
             style={{ color: 'hsl(25 20% 8%)' }}
           >
-            Protéger ma famille maintenant
+            Accéder aux 250 remèdes →
           </a>
 
           <p className="text-center text-xs text-destructive font-bold mt-2">

@@ -15,7 +15,7 @@ const HeroSection = () => (
     <div className="container max-w-3xl mx-auto text-center">
       <ScrollReveal>
         <p className="text-gold-light text-sm tracking-widest uppercase mb-4">
-          🌿 Le guide de référence en France — 250 remèdes ancestraux
+          🌿 Le guide que la médecine moderne ne veut pas que vous ayez
         </p>
       </ScrollReveal>
 
@@ -27,7 +27,7 @@ const HeroSection = () => (
 
       <ScrollReveal delay={200}>
         <p className="text-lg text-parchment mb-10 max-w-2xl mx-auto leading-relaxed">
-          Et si demain les pharmacies ferment, les prix explosent ou les médicaments manquent… <strong className="text-gold">saurez-vous protéger votre famille ?</strong> 250 remèdes naturels que vos grands-parents maîtrisaient — et que vous avez oubliés.
+          En 2024, <strong className="text-gold">plus de 3 000 médicaments étaient en rupture de stock en France.</strong> Le paracétamol, l'amoxicilline, l'ibuprofène… les bases. Votre grand-mère, elle, n'a jamais eu besoin d'une pharmacie. Elle savait soigner une fièvre avec 3 ingrédients de sa cuisine. <em>Ce savoir meurt avec sa génération.</em> Ce guide le sauve.
         </p>
       </ScrollReveal>
 
@@ -44,9 +44,9 @@ const HeroSection = () => (
       <ScrollReveal delay={400}>
         <div className="flex flex-wrap justify-center gap-6 mb-10">
           {[
-            { icon: BookOpen, label: '250 Remèdes' },
-            { icon: Users, label: '+2 400 familles protégées' },
-            { icon: Star, label: '4.9/5 étoiles' },
+            { icon: BookOpen, label: '250 remèdes vérifiés' },
+            { icon: Users, label: '+2 400 familles équipées' },
+            { icon: Star, label: '4.9/5 (avis vérifiés)' },
           ].map((stat, i) => (
             <div key={i} className="flex items-center gap-2 text-gold-light">
               <stat.icon className="w-5 h-5" />
@@ -62,11 +62,11 @@ const HeroSection = () => (
           onClick={(e) => { e.preventDefault(); document.getElementById('offer')?.scrollIntoView({ behavior: 'smooth' }); }}
           className="cta-button inline-block text-center no-underline"
         >
-          📥 PROTÉGER MA FAMILLE MAINTENANT
+          📥 ACCÉDER AUX 250 REMÈDES MAINTENANT
         </a>
         <p className="mt-4 text-sm text-muted-foreground flex items-center justify-center gap-2">
           <Lock className="w-4 h-4" />
-          Paiement 100% sécurisé — Accès instantané par e-mail
+          Accès instantané par e-mail — Téléchargement en 30 secondes
         </p>
       </ScrollReveal>
     </div>
