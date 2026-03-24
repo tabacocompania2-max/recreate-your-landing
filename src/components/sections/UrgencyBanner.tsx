@@ -4,7 +4,7 @@ const UrgencyBanner = () => (
   <ScrollReveal>
     <div className="urgency-banner">
       <p className="text-sm font-bold text-warm-cream tracking-wide">
-        ⚠️ OFFRE LIMITÉE — Prix spécial lancement : seulement pour les 100 prochains acheteurs
+        ⚠️ ALERTE — Ce savoir disparaît chaque jour. Prix spécial pour les 100 prochains seulement. Agissez MAINTENANT.
       </p>
     </div>
   </ScrollReveal>

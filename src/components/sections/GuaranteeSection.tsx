@@ -14,19 +14,19 @@ const GuaranteeSection = () => (
 
       <ScrollReveal delay={100}>
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gold">
-          Garantie totale — zéro risque pour vous
+          Vous ne prenez AUCUN risque. Zéro.
         </h2>
       </ScrollReveal>
 
       <ScrollReveal delay={200}>
         <p className="text-parchment text-lg leading-relaxed max-w-2xl mx-auto mb-8">
-          Si pour quelque raison que ce soit vous n'êtes pas entièrement satisfait de votre guide, contactez-nous dans les 30 jours et nous vous rembourserons intégralement. <strong className="text-gold">Pas de questions posées.</strong>
+          Testez le guide pendant 30 jours complets. Essayez les remèdes. Si vous n'êtes pas convaincu que ce guide peut protéger votre famille, <strong className="text-gold">nous vous remboursons chaque centime. Sans poser une seule question.</strong> C'est nous qui prenons le risque — pas vous.
         </p>
       </ScrollReveal>
 
       <ScrollReveal delay={300}>
         <blockquote className="text-gold-light italic text-lg max-w-xl mx-auto">
-          « Vous ne risquez absolument rien. Soit vous adorez le guide, soit vous récupérez votre argent. C'est aussi simple que ça. »
+          « Le seul vrai risque, c'est de ne rien faire — et de regretter le jour où vous en aurez besoin. »
         </blockquote>
       </ScrollReveal>
     </div>

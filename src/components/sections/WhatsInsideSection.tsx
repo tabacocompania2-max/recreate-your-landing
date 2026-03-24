@@ -5,14 +5,14 @@ import { Heart, Zap, Leaf, Shield, Star, Brain, Droplets, Flower2 } from 'lucide
 
 const WhatsInsideSection = () => {
   const categories = [
-    { icon: Heart, title: "Système cardiovasculaire", count: "42 remèdes", desc: "Cœur, circulation, tension artérielle" },
-    { icon: Zap, title: "Système digestif", count: "38 remèdes", desc: "Troubles digestifs, foie, estomac" },
-    { icon: Leaf, title: "Système respiratoire", count: "35 remèdes", desc: "Gorge, bronches, voies respiratoires" },
-    { icon: Shield, title: "Système immunitaire", count: "28 remèdes", desc: "Défenses naturelles, prévention" },
-    { icon: Star, title: "Santé musculosquelettique", count: "30 remèdes", desc: "Douleurs articulaires, muscles, os" },
-    { icon: Droplets, title: "Problèmes de peau", count: "25 remèdes", desc: "Peau saine, eczéma, irritations" },
-    { icon: Brain, title: "Système nerveux", count: "22 remèdes", desc: "Stress, sommeil, anxiété" },
-    { icon: Flower2, title: "Système reproducteur", count: "30 remèdes", desc: "Santé féminine et masculine" },
+    { icon: Heart, title: "Système cardiovasculaire", count: "42 remèdes", desc: "Quand votre tension monte et qu'il n'y a pas de médecin à l'horizon" },
+    { icon: Zap, title: "Système digestif", count: "38 remèdes", desc: "Douleurs d'estomac, intoxications — agissez sans attendre" },
+    { icon: Leaf, title: "Système respiratoire", count: "35 remèdes", desc: "Toux, bronchite, gorge en feu — des solutions en quelques minutes" },
+    { icon: Shield, title: "Système immunitaire", count: "28 remèdes", desc: "Renforcez vos défenses AVANT que la maladie ne frappe" },
+    { icon: Star, title: "Douleurs & articulations", count: "30 remèdes", desc: "Soulagez la douleur naturellement, sans anti-inflammatoires chimiques" },
+    { icon: Droplets, title: "Problèmes de peau", count: "25 remèdes", desc: "Eczéma, brûlures, irritations — des réponses immédiates" },
+    { icon: Brain, title: "Stress & sommeil", count: "22 remèdes", desc: "Dormez enfin sans somnifères. Calmez l'anxiété naturellement" },
+    { icon: Flower2, title: "Santé intime", count: "30 remèdes", desc: "Santé féminine et masculine — ce que la pudeur a fait oublier" },
   ];
 
   return (
@@ -20,10 +20,10 @@ const WhatsInsideSection = () => {
       <div className="container max-w-3xl mx-auto">
         <ScrollReveal>
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-2">
-            Ce que contient la{' '}<span className="gold-text-gradient">Pharmacie de Grand-Mère</span>
+            250 solutions pour ne plus jamais être <span className="gold-text-gradient">démuni</span>
           </h2>
           <p className="text-center text-parchment mb-10 text-lg">
-            250 remèdes organisés par système du corps — faciles à trouver, simples à préparer
+            Organisé par problème de santé — trouvez le bon remède en moins de 30 secondes, même en situation d'urgence
           </p>
         </ScrollReveal>
 

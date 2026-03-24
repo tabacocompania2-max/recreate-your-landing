@@ -12,52 +12,52 @@ const BonusSection = () => {
       icon: Calendar,
       number: "1",
       title: "Calendrier de Plantes",
-      subtitle: "Guide mensuel de récolte + culture en France",
+      subtitle: "Sachez EXACTEMENT quand récolter chaque plante pour un effet maximum",
       value: "19,90 €",
       image: bonusCalendar,
       points: [
-        "Quand cueillir chaque plante mois par mois",
-        "Conseils de culture adaptés au climat français",
-        "PDF imprimable à accrocher dans votre cuisine",
+        "Mois par mois : quand cueillir pour une puissance maximale",
+        "Cultivez vos propres remèdes même sur un balcon",
+        "Imprimez-le et accrochez-le — votre pharmacie commence dans votre jardin",
       ],
     },
     {
       icon: MapPin,
       number: "2",
       title: "Guide des Herbes Régionales",
-      subtitle: "150 plantes médicinales des régions françaises",
+      subtitle: "150 plantes qui poussent AUTOUR DE CHEZ VOUS — gratuitement",
       value: "24,90 €",
       image: bonusRegional,
       points: [
-        "Provence, Bretagne, Alsace, Normandie et plus",
-        "Plantes spécifiques à chaque terroir",
-        "Identification et utilisations détaillées",
+        "Provence, Bretagne, Alsace, Normandie… chaque région a ses trésors",
+        "Identifiez les plantes médicinales dans votre environnement",
+        "Ne dépendez plus de personne — la nature vous fournit tout",
       ],
     },
     {
       icon: Sun,
       number: "3",
       title: "Recettes Saison par Saison",
-      subtitle: "50 recettes adaptées à chaque saison française",
+      subtitle: "50 préparations adaptées au climat — prêtes en minutes",
       value: "14,90 €",
       image: bonusSeasons,
       points: [
-        "Printemps, été, automne, hiver",
-        "Ingrédients de saison facilement disponibles",
-        "Recettes prêtes à préparer immédiatement",
+        "Chaque saison a ses maladies — et ses remèdes naturels",
+        "Ingrédients disponibles partout, même en cas de pénurie",
+        "Protégez votre famille 365 jours par an",
       ],
     },
     {
       icon: FileText,
       number: "4",
-      title: "Plantillas de Préparation",
-      subtitle: "Hojas de trabajo personalizables en PDF editable",
+      title: "Fiches de Préparation",
+      subtitle: "Vos fiches pratiques pour agir vite quand ça compte",
       value: "9,90 €",
       image: bonusTemplates,
       points: [
-        "Fiches de suivi de vos préparations",
-        "Journal de remèdes personnalisable",
-        "Format PDF éditable — remplissez et imprimez",
+        "Fiches de suivi : notez ce qui marche pour votre famille",
+        "Journal de remèdes personnalisable — votre propre cahier de grand-mère",
+        "PDF éditable — imprimez et gardez à portée de main",
       ],
     },
   ];
@@ -70,13 +70,13 @@ const BonusSection = () => {
         <ScrollReveal>
           <p className="text-center text-sm tracking-widest uppercase text-gold-light mb-2">
             <Gift className="inline w-4 h-4 mr-1" />
-            BONUS EXCLUSIFS — OFFERTS AUJOURD'HUI
+            BONUS EXCLUSIFS — DISPONIBLES UNIQUEMENT AUJOURD'HUI
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-2 text-gold">
-            4 guides bonus OFFERTS avec votre commande
+            4 armes supplémentaires pour votre autonomie
           </h2>
           <p className="text-center text-parchment mb-10 text-lg">
-            Valeur totale des bonus : {totalBonusValue} — <strong className="text-gold">GRATUIT</strong> pour vous aujourd'hui
+            Valeur totale : {totalBonusValue} — <strong className="text-gold">OFFERTS</strong> si vous agissez maintenant
           </p>
         </ScrollReveal>
 

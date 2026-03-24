@@ -3,12 +3,12 @@ import { Download, Clock, Mail, Smartphone, RefreshCw, Globe } from 'lucide-reac
 
 const DigitalAdvantageSection = () => {
   const advantages = [
-    { icon: Download, title: "Accès immédiat", desc: "Recevez votre guide par e-mail dès la confirmation de paiement — pas d'attente" },
-    { icon: Smartphone, title: "Lisez partout", desc: "Sur votre téléphone, tablette ou ordinateur — chez vous ou en déplacement" },
-    { icon: Mail, title: "Toujours accessible", desc: "Votre guide reste dans votre boîte mail pour toujours — impossible de le perdre" },
-    { icon: RefreshCw, title: "Mises à jour gratuites", desc: "Recevez les futures versions mises à jour directement dans votre boîte mail" },
-    { icon: Globe, title: "Partagez en famille", desc: "Envoyez facilement le guide à vos proches pour qu'ils en profitent aussi" },
-    { icon: Clock, title: "Utilisable de suite", desc: "Pas besoin de commander, pas de frais de livraison — vous l'avez en 30 secondes" },
+    { icon: Download, title: "Accès immédiat", desc: "Recevez votre guide en 30 secondes — pas besoin d'attendre. Chaque minute compte." },
+    { icon: Smartphone, title: "Toujours sur vous", desc: "Sur votre téléphone, tablette ou imprimé. Accessible même sans connexion internet." },
+    { icon: Mail, title: "Impossible à perdre", desc: "Stocké dans votre boîte mail pour toujours. Contrairement aux livres, il ne brûle pas, ne s'abîme pas." },
+    { icon: RefreshCw, title: "Mises à jour gratuites", desc: "De nouveaux remèdes vérifiés sont ajoutés régulièrement — vous les recevez automatiquement." },
+    { icon: Globe, title: "Protégez toute la famille", desc: "Partagez-le avec vos enfants, vos parents, vos proches. Que chacun sache se débrouiller." },
+    { icon: Clock, title: "Prêt en cas d'urgence", desc: "Pas de commande, pas de livraison, pas d'attente. Quand la crise arrive, vous êtes déjà prêt." },
   ];
 
   return (
@@ -16,10 +16,10 @@ const DigitalAdvantageSection = () => {
       <div className="container max-w-3xl mx-auto">
         <ScrollReveal>
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-2">
-            Pourquoi le format{' '}<span className="gold-text-gradient">numérique</span>{' '}est idéal
+            Pourquoi le format{' '}<span className="gold-text-gradient">numérique</span>{' '}peut vous sauver
           </h2>
           <p className="text-center text-parchment mb-10 text-lg">
-            Plus pratique qu'un livre physique — et vous l'avez en 30 secondes
+            Un guide physique peut être détruit. Un PDF est éternel — et accessible en une seconde, partout.
           </p>
         </ScrollReveal>
 

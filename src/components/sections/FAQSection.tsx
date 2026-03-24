@@ -4,12 +4,13 @@ import { ChevronDown } from 'lucide-react';
 
 const FAQSection = () => {
   const faqs = [
-    { q: "Comment vais-je recevoir mon guide ?", a: "Immédiatement après votre paiement, vous recevrez un e-mail avec le lien de téléchargement de tous vos PDF (guide principal + 4 bonus). Vous pourrez les lire sur votre téléphone, tablette ou ordinateur." },
-    { q: "Est-ce que ce guide est adapté aux débutants ?", a: "Absolument ! Chaque remède est expliqué étape par étape, avec des ingrédients faciles à trouver en France. Aucune connaissance préalable n'est nécessaire." },
-    { q: "Les remèdes remplacent-ils un avis médical ?", a: "Non, ce guide est un complément d'information basé sur la tradition française. Il ne remplace pas l'avis de votre médecin. Consultez toujours un professionnel de santé pour les problèmes graves." },
-    { q: "Combien de temps ai-je accès au guide ?", a: "À vie ! Une fois téléchargé, le PDF est à vous pour toujours. Vous pouvez le relire, l'imprimer, et le partager avec votre famille." },
-    { q: "Est-ce que le paiement est sécurisé ?", a: "Oui, à 100%. Le paiement est traité par Hotmart, une plateforme internationale de confiance utilisée par des millions de personnes. Vos données bancaires sont protégées par un cryptage SSL." },
-    { q: "Puis-je me faire rembourser si je ne suis pas satisfait ?", a: "Bien sûr ! Vous bénéficiez de notre garantie de 30 jours. Si le guide ne vous convient pas, contactez-nous et vous serez remboursé intégralement, sans aucune question." },
+    { q: "Comment vais-je recevoir mon guide ?", a: "Immédiatement. En moins de 30 secondes après votre paiement, vous recevez un e-mail avec tous vos PDF — le guide principal + les 4 bonus. Lisez-le sur votre téléphone, tablette ou ordinateur. Imprimez-le si vous voulez l'avoir en cas de coupure internet." },
+    { q: "Je n'y connais rien en plantes. C'est pour moi ?", a: "C'est EXACTEMENT pour vous. Chaque remède est expliqué comme si votre grand-mère vous le montrait : étape par étape, avec des ingrédients que vous trouvez au marché ou dans votre jardin. Aucune connaissance préalable nécessaire." },
+    { q: "Est-ce que ça remplace mon médecin ?", a: "Ce guide est un complément puissant, pas un remplacement. Mais posez-vous cette question : que ferez-vous quand votre médecin ne sera PAS disponible ? Un dimanche soir ? Pendant une grève ? En cas de crise ? C'est là que ce guide devient indispensable." },
+    { q: "Combien de temps ai-je accès au guide ?", a: "À VIE. Une fois téléchargé, il est à vous pour toujours. Transmettez-le à vos enfants, vos petits-enfants. C'est votre héritage familial de santé naturelle." },
+    { q: "Le paiement est-il sécurisé ?", a: "100% sécurisé. Le paiement est traité par Hotmart, plateforme internationale utilisée par des millions de personnes. Vos données bancaires sont protégées par cryptage SSL de niveau bancaire." },
+    { q: "Et si ça ne me plaît pas ?", a: "Vous avez 30 jours pour tester. Si le guide ne vous convient pas — pour N'IMPORTE quelle raison — vous êtes remboursé intégralement. Pas de justification, pas de paperasse. Un simple e-mail suffit." },
+    { q: "Pourquoi ce prix si bas ?", a: "Parce que notre mission est de remettre ce savoir entre les mains du plus grand nombre de familles françaises possible. Ce prix ne durera pas éternellement — il augmentera dès que nous aurons atteint notre objectif de diffusion." },
   ];
 
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -19,7 +20,7 @@ const FAQSection = () => {
       <div className="container max-w-3xl mx-auto">
         <ScrollReveal>
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 text-gold">
-            Questions fréquentes
+            Vos questions, nos réponses
           </h2>
         </ScrollReveal>
 
