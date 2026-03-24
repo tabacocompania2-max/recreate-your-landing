@@ -20,7 +20,7 @@ const GuaranteeSection = () => (
 
       <ScrollReveal delay={200}>
         <p className="text-parchment text-lg leading-relaxed max-w-2xl mx-auto mb-8">
-          Essayez le remède contre l'insomnie. Testez la tisane contre la toux. Préparez le cataplasme contre les douleurs. Si après 30 jours vous pensez que ça ne vaut pas 29,90 €, <strong className="text-gold">envoyez un simple e-mail et on vous rembourse intégralement.</strong> Pas de formulaire. Pas de justification. Pas de questions. C'est nous qui prenons le risque. Pas vous.
+          Essayez le remède contre l'insomnie. Testez la tisane contre la toux. Préparez le cataplasme contre les douleurs. Si après 30 jours vous pensez que ça ne vaut pas 15,00 €, <strong className="text-gold">envoyez un simple e-mail et on vous rembourse intégralement.</strong> Pas de formulaire. Pas de justification. Pas de questions. C'est nous qui prenons le risque. Pas vous.
         </p>
       </ScrollReveal>
 

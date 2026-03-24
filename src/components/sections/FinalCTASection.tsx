@@ -11,13 +11,13 @@ const FinalCTASection = () => (
         <p className="text-parchment text-lg leading-relaxed max-w-2xl mx-auto mb-8">
           <strong className="text-gold">Option 1 :</strong> Vous fermez cette page. Vous oubliez. Et le jour où votre enfant est malade à 2h du matin, où la pharmacie est fermée, où les médicaments manquent — vous cherchez frénétiquement sur Google en espérant trouver une réponse fiable.
           <br /><br />
-          <strong className="text-gold">Option 2 :</strong> Vous investissez 29,90 € — moins qu'un repas au restaurant — et dans 30 secondes, vous avez 250 remèdes vérifiés sur votre téléphone. Prêts. Pour toujours. Pour toute votre famille.
+          <strong className="text-gold">Option 2 :</strong> Vous investissez 15,00 € — moins qu'un repas au restaurant — et dans 30 secondes, vous avez 250 remèdes vérifiés sur votre téléphone. Prêts. Pour toujours. Pour toute votre famille.
         </p>
       </ScrollReveal>
 
       <ScrollReveal delay={200}>
         <p className="text-gold-light font-bold text-xl mb-6">
-          250 remèdes + 4 bonus OFFERTS — 29,90 € au lieu de 166,60 €
+          250 remèdes + 4 bonus OFFERTS — 15,00 € au lieu de 113,90 €
         </p>
       </ScrollReveal>
 

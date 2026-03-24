@@ -41,9 +41,9 @@ const OfferSection = ({ hotmartUrl }: OfferSectionProps) => (
 
             <div className="text-center mb-6">
               <p className="text-sm text-muted-foreground">Valeur réelle de l'ensemble :</p>
-              <p className="text-2xl price-slash">166,60 €</p>
+              <p className="text-2xl price-slash">113,90 €</p>
               <p className="text-sm text-gold-light mt-2">Votre prix aujourd'hui :</p>
-              <p className="text-5xl font-bold text-gold">29,90 €</p>
+              <p className="text-5xl font-bold text-gold">15,00 €</p>
               <p className="text-sm text-muted-foreground mt-1">Un seul paiement. Pas d'abonnement. Pas de frais cachés. C'est à vous pour toujours.</p>
             </div>
 
@@ -52,11 +52,11 @@ const OfferSection = ({ hotmartUrl }: OfferSectionProps) => (
             <p className="text-gold font-bold mb-4 text-sm uppercase tracking-wide">VOUS RECEVEZ IMMÉDIATEMENT :</p>
             <ul className="space-y-3 mb-6">
               {[
-                "📖 La Pharmacie de Grand-Mère — 250 remèdes classés par problème, prêts à utiliser (valeur 97 €)",
+                "📖 La Pharmacie de Grand-Mère — 250 remèdes classés par problème, prêts à utiliser (valeur 67 €)",
                 "🌿 BONUS : Calendrier de Récolte — cueillez chaque plante au bon moment pour un effet maximum (valeur 19,90 €)",
-                "🗺️ BONUS : Guide Régional — 150 plantes médicinales gratuites autour de chez vous (valeur 24,90 €)",
-                "☀️ BONUS : Recettes par Saison — protégé contre les maladies saisonnières, 365 jours/an (valeur 14,90 €)",
-                "📝 BONUS : Fiches d'Urgence — trouvez le bon remède en 10 secondes quand ça compte (valeur 9,90 €)",
+                "🗺️ BONUS : Guide Régional — 150 plantes médicinales gratuites autour de chez vous (valeur 14,90 €)",
+                "☀️ BONUS : Recettes par Saison — protégé contre les maladies saisonnières, 365 jours/an (valeur 7,90 €)",
+                "📝 BONUS : Fiches d'Urgence — trouvez le bon remède en 10 secondes quand ça compte (valeur 4,20 €)",
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-2 text-parchment text-sm">
                   <Check className="w-4 h-4 text-gold flex-shrink-0 mt-0.5" />
@@ -66,8 +66,8 @@ const OfferSection = ({ hotmartUrl }: OfferSectionProps) => (
             </ul>
 
             <div className="bg-wood-dark rounded-lg p-4 mb-6 text-center">
-              <p className="text-sm text-muted-foreground">Valeur totale : <span className="price-slash">166,60 €</span></p>
-              <p className="text-xl font-bold text-gold mt-1">Vous payez : 29,90 € — soit 0,12 € par remède</p>
+              <p className="text-sm text-muted-foreground">Valeur totale : <span className="price-slash">113,90 €</span></p>
+              <p className="text-xl font-bold text-gold mt-1">Vous payez : 15,00 € — soit 0,06 € par remède</p>
               <p className="text-sm text-gold-light mt-1">Moins cher qu'une boîte de Doliprane. Pour 250 solutions.</p>
             </div>
 
