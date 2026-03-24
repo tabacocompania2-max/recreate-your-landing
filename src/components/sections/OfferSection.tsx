@@ -52,11 +52,11 @@ const OfferSection = ({ hotmartUrl }: OfferSectionProps) => (
             <p className="text-gold font-bold mb-4 text-sm uppercase tracking-wide">VOUS RECEVEZ IMMÉDIATEMENT :</p>
             <ul className="space-y-3 mb-6">
               {[
-                "📖 La Pharmacie de Grand-Mère — 250 remèdes classés par problème, prêts à utiliser (valeur 97 €)",
+                "📖 La Pharmacie de Grand-Mère — 250 remèdes classés par problème, prêts à utiliser (valeur 67 €)",
                 "🌿 BONUS : Calendrier de Récolte — cueillez chaque plante au bon moment pour un effet maximum (valeur 19,90 €)",
-                "🗺️ BONUS : Guide Régional — 150 plantes médicinales gratuites autour de chez vous (valeur 24,90 €)",
-                "☀️ BONUS : Recettes par Saison — protégé contre les maladies saisonnières, 365 jours/an (valeur 14,90 €)",
-                "📝 BONUS : Fiches d'Urgence — trouvez le bon remède en 10 secondes quand ça compte (valeur 9,90 €)",
+                "🗺️ BONUS : Guide Régional — 150 plantes médicinales gratuites autour de chez vous (valeur 14,90 €)",
+                "☀️ BONUS : Recettes par Saison — protégé contre les maladies saisonnières, 365 jours/an (valeur 7,90 €)",
+                "📝 BONUS : Fiches d'Urgence — trouvez le bon remède en 10 secondes quand ça compte (valeur 4,20 €)",
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-2 text-parchment text-sm">
                   <Check className="w-4 h-4 text-gold flex-shrink-0 mt-0.5" />
