@@ -41,9 +41,9 @@ const OfferSection = ({ hotmartUrl }: OfferSectionProps) => (
 
             <div className="text-center mb-6">
               <p className="text-sm text-muted-foreground">Valeur réelle de l'ensemble :</p>
-              <p className="text-2xl price-slash">166,60 €</p>
+              <p className="text-2xl price-slash">113,90 €</p>
               <p className="text-sm text-gold-light mt-2">Votre prix aujourd'hui :</p>
-              <p className="text-5xl font-bold text-gold">29,90 €</p>
+              <p className="text-5xl font-bold text-gold">15,00 €</p>
               <p className="text-sm text-muted-foreground mt-1">Un seul paiement. Pas d'abonnement. Pas de frais cachés. C'est à vous pour toujours.</p>
             </div>
 
