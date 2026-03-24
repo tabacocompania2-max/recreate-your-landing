@@ -66,8 +66,8 @@ const OfferSection = ({ hotmartUrl }: OfferSectionProps) => (
             </ul>
 
             <div className="bg-wood-dark rounded-lg p-4 mb-6 text-center">
-              <p className="text-sm text-muted-foreground">Valeur totale : <span className="price-slash">166,60 €</span></p>
-              <p className="text-xl font-bold text-gold mt-1">Vous payez : 29,90 € — soit 0,12 € par remède</p>
+              <p className="text-sm text-muted-foreground">Valeur totale : <span className="price-slash">113,90 €</span></p>
+              <p className="text-xl font-bold text-gold mt-1">Vous payez : 15,00 € — soit 0,06 € par remède</p>
               <p className="text-sm text-gold-light mt-1">Moins cher qu'une boîte de Doliprane. Pour 250 solutions.</p>
             </div>
 

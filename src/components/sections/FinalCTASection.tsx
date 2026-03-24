@@ -17,7 +17,7 @@ const FinalCTASection = () => (
 
       <ScrollReveal delay={200}>
         <p className="text-gold-light font-bold text-xl mb-6">
-          250 remèdes + 4 bonus OFFERTS — 29,90 € au lieu de 166,60 €
+          250 remèdes + 4 bonus OFFERTS — 15,00 € au lieu de 113,90 €
         </p>
       </ScrollReveal>
 

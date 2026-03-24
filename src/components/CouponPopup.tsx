@@ -94,8 +94,8 @@ const CouponPopup = () => {
 
           <div className="flex items-center justify-between mt-3">
             <div className="flex items-baseline gap-2">
-              <span className="text-muted-foreground line-through text-sm">166,60 €</span>
-              <span className="text-gold font-bold text-lg">29,90 €</span>
+              <span className="text-muted-foreground line-through text-sm">113,90 €</span>
+              <span className="text-gold font-bold text-lg">15,00 €</span>
             </div>
           </div>
 
