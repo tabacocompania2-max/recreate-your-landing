@@ -5,14 +5,14 @@ import { Heart, Zap, Leaf, Shield, Star, Brain, Droplets, Flower2 } from 'lucide
 
 const WhatsInsideSection = () => {
   const categories = [
-    { icon: Heart, title: "Système cardiovasculaire", count: "42 remèdes", desc: "Quand votre tension monte et qu'il n'y a pas de médecin à l'horizon" },
-    { icon: Zap, title: "Système digestif", count: "38 remèdes", desc: "Douleurs d'estomac, intoxications — agissez sans attendre" },
-    { icon: Leaf, title: "Système respiratoire", count: "35 remèdes", desc: "Toux, bronchite, gorge en feu — des solutions en quelques minutes" },
-    { icon: Shield, title: "Système immunitaire", count: "28 remèdes", desc: "Renforcez vos défenses AVANT que la maladie ne frappe" },
-    { icon: Star, title: "Douleurs & articulations", count: "30 remèdes", desc: "Soulagez la douleur naturellement, sans anti-inflammatoires chimiques" },
-    { icon: Droplets, title: "Problèmes de peau", count: "25 remèdes", desc: "Eczéma, brûlures, irritations — des réponses immédiates" },
-    { icon: Brain, title: "Stress & sommeil", count: "22 remèdes", desc: "Dormez enfin sans somnifères. Calmez l'anxiété naturellement" },
-    { icon: Flower2, title: "Santé intime", count: "30 remèdes", desc: "Santé féminine et masculine — ce que la pudeur a fait oublier" },
+    { icon: Heart, title: "Cœur & circulation", count: "42 remèdes", desc: "L'ail cru fait baisser la tension. Mais savez-vous COMMENT le préparer pour qu'il soit efficace ? La plupart des gens le font mal." },
+    { icon: Zap, title: "Digestion & intoxications", count: "38 remèdes", desc: "Intoxication alimentaire un samedi soir ? Le charbon végétal agit en 15 minutes. Encore faut-il connaître le bon dosage." },
+    { icon: Leaf, title: "Toux, rhume & bronchite", count: "35 remèdes", desc: "L'oignon coupé en deux au chevet du lit calme la toux nocturne d'un enfant. Bizarre ? Oui. Efficace ? Demandez à n'importe quelle grand-mère." },
+    { icon: Shield, title: "Immunité & prévention", count: "28 remèdes", desc: "Le vinaigre des 4 voleurs protégeait de la peste au Moyen Âge. Aujourd'hui, il reste l'un des antiseptiques naturels les plus puissants." },
+    { icon: Star, title: "Douleurs & inflammations", count: "30 remèdes", desc: "Le curcuma + poivre noir = anti-inflammatoire naturel aussi efficace que l'ibuprofène. Sans détruire votre estomac." },
+    { icon: Droplets, title: "Peau, brûlures & infections", count: "25 remèdes", desc: "Le miel sur une brûlure guérit 2x plus vite qu'une crème pharmaceutique. Les hôpitaux commencent à l'utiliser. Votre grand-mère le faisait déjà." },
+    { icon: Brain, title: "Insomnie, stress & anxiété", count: "22 remèdes", desc: "La valériane est surnommée « le Valium de la nature ». Sans accoutumance, sans ordonnance, sans effets secondaires." },
+    { icon: Flower2, title: "Santé intime", count: "30 remèdes", desc: "Infections urinaires, troubles hormonaux, mycoses… des solutions naturelles que votre médecin ne vous proposera jamais." },
   ];
 
   return (
@@ -20,10 +20,10 @@ const WhatsInsideSection = () => {
       <div className="container max-w-3xl mx-auto">
         <ScrollReveal>
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-2">
-            250 solutions pour ne plus jamais être <span className="gold-text-gradient">démuni</span>
+            250 remèdes pour ne plus jamais dire <span className="gold-text-gradient">« je ne sais pas quoi faire »</span>
           </h2>
           <p className="text-center text-parchment mb-10 text-lg">
-            Organisé par problème de santé — trouvez le bon remède en moins de 30 secondes, même en situation d'urgence
+            Chaque remède tient sur une fiche. Problème → ingrédients → préparation → dosage. Trouvez la solution en 30 secondes, même en pleine panique.
           </p>
         </ScrollReveal>
 

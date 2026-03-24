@@ -6,16 +6,18 @@ const FinalCTASection = () => (
     <div className="container max-w-3xl mx-auto text-center">
       <ScrollReveal>
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gold">
-          Chaque jour que vous attendez, c'est un risque de plus
+          Vous avez deux options maintenant.
         </h2>
         <p className="text-parchment text-lg leading-relaxed max-w-2xl mx-auto mb-8">
-          Les pénuries de médicaments augmentent. Les prix en pharmacie grimpent. Et les savoirs ancestraux disparaissent avec ceux qui les portent. <strong className="text-gold">Vous avez encore la possibilité d'agir.</strong> Demain, ce ne sera peut-être plus le cas.
+          <strong className="text-gold">Option 1 :</strong> Vous fermez cette page. Vous oubliez. Et le jour où votre enfant est malade à 2h du matin, où la pharmacie est fermée, où les médicaments manquent — vous cherchez frénétiquement sur Google en espérant trouver une réponse fiable.
+          <br /><br />
+          <strong className="text-gold">Option 2 :</strong> Vous investissez 29,90 € — moins qu'un repas au restaurant — et dans 30 secondes, vous avez 250 remèdes vérifiés sur votre téléphone. Prêts. Pour toujours. Pour toute votre famille.
         </p>
       </ScrollReveal>
 
       <ScrollReveal delay={200}>
         <p className="text-gold-light font-bold text-xl mb-6">
-          250 remèdes + 4 bonus OFFERTS — seulement 29,90 € (avant augmentation)
+          250 remèdes + 4 bonus OFFERTS — 29,90 € au lieu de 166,60 €
         </p>
       </ScrollReveal>
 
@@ -25,12 +27,12 @@ const FinalCTASection = () => (
           onClick={(e) => { e.preventDefault(); document.getElementById('offer')?.scrollIntoView({ behavior: 'smooth' }); }}
           className="cta-button inline-flex items-center gap-2 no-underline"
         >
-          📥 JE PROTÈGE MA FAMILLE MAINTENANT
+          📥 JE CHOISIS L'OPTION 2
           <ArrowRight className="w-5 h-5" />
         </a>
         <p className="mt-4 text-sm text-muted-foreground flex items-center justify-center gap-2">
           <Lock className="w-4 h-4" />
-          Paiement sécurisé — Accès instantané — Garantie 30 jours
+          Garantie 30 jours — Remboursement sans conditions
         </p>
       </ScrollReveal>
     </div>

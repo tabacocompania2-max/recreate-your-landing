@@ -3,12 +3,12 @@ import { Download, Clock, Mail, Smartphone, RefreshCw, Globe } from 'lucide-reac
 
 const DigitalAdvantageSection = () => {
   const advantages = [
-    { icon: Download, title: "Accès immédiat", desc: "Recevez votre guide en 30 secondes — pas besoin d'attendre. Chaque minute compte." },
-    { icon: Smartphone, title: "Toujours sur vous", desc: "Sur votre téléphone, tablette ou imprimé. Accessible même sans connexion internet." },
-    { icon: Mail, title: "Impossible à perdre", desc: "Stocké dans votre boîte mail pour toujours. Contrairement aux livres, il ne brûle pas, ne s'abîme pas." },
-    { icon: RefreshCw, title: "Mises à jour gratuites", desc: "De nouveaux remèdes vérifiés sont ajoutés régulièrement — vous les recevez automatiquement." },
-    { icon: Globe, title: "Protégez toute la famille", desc: "Partagez-le avec vos enfants, vos parents, vos proches. Que chacun sache se débrouiller." },
-    { icon: Clock, title: "Prêt en cas d'urgence", desc: "Pas de commande, pas de livraison, pas d'attente. Quand la crise arrive, vous êtes déjà prêt." },
+    { icon: Download, title: "30 secondes", desc: "Vous payez. Vous recevez. C'est sur votre téléphone avant même que vous ayez fini votre café." },
+    { icon: Smartphone, title: "Dans votre poche, toujours", desc: "Votre enfant est malade à 3h du matin ? Ouvrez votre téléphone. Le remède est là. Pas besoin d'internet." },
+    { icon: Mail, title: "Indestructible", desc: "Un livre brûle. Un cahier se perd. Votre PDF est sauvegardé dans votre boîte mail pour toujours. Vous pouvez le re-télécharger à l'infini." },
+    { icon: RefreshCw, title: "Il s'améliore avec le temps", desc: "Nous ajoutons régulièrement de nouveaux remèdes vérifiés. Vous recevez les mises à jour gratuitement, à vie." },
+    { icon: Globe, title: "Toute la famille protégée", desc: "Envoyez-le à vos enfants, vos parents, vos frères et sœurs. Un seul achat protège tout votre cercle familial." },
+    { icon: Clock, title: "Zéro délai, zéro excuses", desc: "Pas de livraison. Pas de colis perdu. Pas de « il arrivera dans 5 jours ». Quand la prochaine crise frappe, vous êtes déjà prêt." },
   ];
 
   return (
@@ -16,10 +16,10 @@ const DigitalAdvantageSection = () => {
       <div className="container max-w-3xl mx-auto">
         <ScrollReveal>
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-2">
-            Pourquoi le format{' '}<span className="gold-text-gradient">numérique</span>{' '}peut vous sauver
+            Pourquoi un{' '}<span className="gold-text-gradient">PDF</span>{' '}et pas un livre ?
           </h2>
           <p className="text-center text-parchment mb-10 text-lg">
-            Un guide physique peut être détruit. Un PDF est éternel — et accessible en une seconde, partout.
+            Parce qu'en cas d'urgence, vous n'aurez pas le temps de chercher un livre sur une étagère. Vous aurez votre téléphone.
           </p>
         </ScrollReveal>
 

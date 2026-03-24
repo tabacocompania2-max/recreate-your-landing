@@ -10,7 +10,7 @@ const StorySection = () => (
           La promesse qui a tout changé
         </h2>
         <p className="text-center text-gold-light italic mb-10 text-lg">
-          « Elle m'a pris la main et m'a dit : "Le jour où les pharmacies ne pourront plus t'aider, tu auras besoin de ce cahier." »
+          « Elle sentait la lavande et le thym. Ses mains tremblaient quand elle m'a tendu ce cahier. Elle m'a dit : "Le jour viendra où tu ne pourras compter que sur toi-même." »
         </p>
       </ScrollReveal>
 
@@ -24,19 +24,19 @@ const StorySection = () => (
 
       <div className="space-y-6 text-parchment text-lg leading-relaxed mb-10">
         <ScrollReveal delay={200}>
-          <p>Ma grand-mère Marguerite n'avait jamais mis les pieds dans une pharmacie. Dans son village provençal, elle soignait tout le monde — ses enfants, ses voisins, même le médecin du village venait lui demander conseil.</p>
+          <p>Ma grand-mère Marguerite vivait dans un village provençal sans pharmacie. Quand un enfant avait des vers intestinaux, elle préparait une décoction de graines de papaye et d'ail. Quand quelqu'un se brûlait, elle appliquait du miel cru directement sur la plaie — bien avant que les hôpitaux ne « découvrent » que le miel médical accélère la cicatrisation. <strong className="text-gold">Elle n'avait pas de diplôme. Elle avait 60 ans d'expérience.</strong></p>
         </ScrollReveal>
 
         <ScrollReveal delay={300}>
-          <p><strong className="text-gold">Son arme secrète ?</strong> Un vieux cahier jauni, taché par des années d'utilisation. Chaque page contenait un remède transmis par sa mère, et avant elle, par des générations entières de femmes qui savaient <em>se débrouiller seules</em>.</p>
+          <p>Son cahier était taché, jauni, avec des pages qui se détachaient. Chaque tache était la preuve qu'un remède avait été utilisé. Cataplasme d'argile pour les entorses. Vinaigre des 4 voleurs contre les infections. Tisane de valériane contre l'insomnie. <em>Des solutions qui fonctionnaient avant l'invention des laboratoires pharmaceutiques.</em></p>
         </ScrollReveal>
 
         <ScrollReveal delay={400}>
-          <p>Avant de partir, elle m'a regardé dans les yeux et m'a dit : <em className="text-gold-light">« Le monde change. Un jour, tu ne pourras pas compter sur les pharmacies. Ce cahier, c'est ton assurance. Ne le perds jamais. »</em></p>
+          <p>Quand elle est partie, j'ai ouvert ce cahier et j'ai réalisé quelque chose de terrifiant : <strong className="text-gold">si je ne faisais rien, tout ce savoir disparaîtrait avec elle.</strong> Comme des milliers d'autres cahiers perdus dans des greniers, jetés par des familles qui ne savaient pas ce qu'ils avaient entre les mains.</p>
         </ScrollReveal>
 
         <ScrollReveal delay={500}>
-          <p>J'ai passé <strong className="text-gold">3 ans</strong> à retrouver, vérifier et compiler ces remèdes — en les complétant avec ceux de dizaines d'autres familles françaises, de la Bretagne à la Provence. <strong className="text-gold">Parce que ce savoir ne doit pas mourir.</strong></p>
+          <p>J'ai passé 3 ans à retrouver ces remèdes. J'ai contacté des herboristes, des naturopathes, des familles rurales de la Bretagne à la Corse. J'ai recoupé chaque remède avec des études scientifiques modernes. Résultat : <strong className="text-gold">85% des remèdes de grand-mère sont aujourd'hui confirmés par la science.</strong> Le reste ? La science n'a tout simplement pas encore pris le temps de les étudier.</p>
         </ScrollReveal>
       </div>
 
@@ -50,10 +50,10 @@ const StorySection = () => (
 
       <ScrollReveal delay={700}>
         <p className="text-center text-xl text-gold font-semibold mb-8">
-          Le résultat ? <span className="gold-text-gradient">La Pharmacie de Grand-Mère</span> — votre plan B quand le système vous lâche.
+          Le résultat ? <span className="gold-text-gradient">La Pharmacie de Grand-Mère</span> — 250 remèdes que vous ne trouverez dans aucune pharmacie. Et dont vous aurez besoin le jour où elles fermeront.
         </p>
         <p className="text-center text-parchment text-lg mb-10">
-          250 remèdes prêts à utiliser. Aucune pharmacie nécessaire. Aucune ordonnance. Juste vous, votre famille, et la nature.
+          Pas de jargon médical. Pas d'ingrédients exotiques. Juste des solutions qui fonctionnent avec ce que vous avez déjà chez vous : du miel, de l'ail, du citron, du thym, du vinaigre…
         </p>
       </ScrollReveal>
 
@@ -64,7 +64,7 @@ const StorySection = () => (
             onClick={(e) => { e.preventDefault(); document.getElementById('offer')?.scrollIntoView({ behavior: 'smooth' }); }}
             className="cta-button inline-block no-underline text-lg"
           >
-            📥 Oui, je veux protéger ma famille
+            📥 Découvrir les 250 remèdes
           </a>
         </div>
       </ScrollReveal>

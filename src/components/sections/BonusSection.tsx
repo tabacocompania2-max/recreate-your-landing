@@ -11,53 +11,53 @@ const BonusSection = () => {
     {
       icon: Calendar,
       number: "1",
-      title: "Calendrier de Plantes",
-      subtitle: "Sachez EXACTEMENT quand récolter chaque plante pour un effet maximum",
+      title: "Calendrier de Récolte",
+      subtitle: "La camomille cueillie en juin est 3x plus puissante qu'en septembre. Ce calendrier vous dit QUAND agir.",
       value: "19,90 €",
       image: bonusCalendar,
       points: [
-        "Mois par mois : quand cueillir pour une puissance maximale",
-        "Cultivez vos propres remèdes même sur un balcon",
-        "Imprimez-le et accrochez-le — votre pharmacie commence dans votre jardin",
+        "Mois par mois : le moment exact où chaque plante atteint son pic d'efficacité",
+        "Fonctionne même sur un balcon — cultivez vos propres remèdes d'urgence",
+        "À imprimer et accrocher dans votre cuisine — votre pharmacie commence là",
       ],
     },
     {
       icon: MapPin,
       number: "2",
-      title: "Guide des Herbes Régionales",
-      subtitle: "150 plantes qui poussent AUTOUR DE CHEZ VOUS — gratuitement",
+      title: "Guide des Plantes de votre Région",
+      subtitle: "150 plantes médicinales qui poussent GRATUITEMENT autour de chez vous. Vous marchez dessus tous les jours.",
       value: "24,90 €",
       image: bonusRegional,
       points: [
-        "Provence, Bretagne, Alsace, Normandie… chaque région a ses trésors",
-        "Identifiez les plantes médicinales dans votre environnement",
-        "Ne dépendez plus de personne — la nature vous fournit tout",
+        "Classé par région : Provence, Bretagne, Alsace, Auvergne, Normandie…",
+        "Photos d'identification pour ne jamais confondre une plante utile avec une toxique",
+        "Le pissenlit dans votre jardin ? C'est un détoxifiant hépatique. Et vous le jetez.",
       ],
     },
     {
       icon: Sun,
       number: "3",
       title: "Recettes Saison par Saison",
-      subtitle: "50 préparations adaptées au climat — prêtes en minutes",
+      subtitle: "L'hiver apporte la grippe. L'été, les intoxications. Chaque saison a ses dangers — et ses remèdes.",
       value: "14,90 €",
       image: bonusSeasons,
       points: [
-        "Chaque saison a ses maladies — et ses remèdes naturels",
-        "Ingrédients disponibles partout, même en cas de pénurie",
-        "Protégez votre famille 365 jours par an",
+        "50 préparations adaptées au climat et aux maladies saisonnières",
+        "Ingrédients disponibles au marché — même en période de pénurie",
+        "Le sirop de sureau en automne réduit la durée d'un rhume de 4 jours. Recette incluse.",
       ],
     },
     {
       icon: FileText,
       number: "4",
-      title: "Fiches de Préparation",
-      subtitle: "Vos fiches pratiques pour agir vite quand ça compte",
+      title: "Fiches de Préparation Rapide",
+      subtitle: "En cas d'urgence, vous n'avez pas le temps de chercher. Ces fiches vous donnent la réponse en 10 secondes.",
       value: "9,90 €",
       image: bonusTemplates,
       points: [
-        "Fiches de suivi : notez ce qui marche pour votre famille",
-        "Journal de remèdes personnalisable — votre propre cahier de grand-mère",
-        "PDF éditable — imprimez et gardez à portée de main",
+        "Format « problème → solution → dosage » — lisible même en situation de stress",
+        "Journal de suivi : notez ce qui fonctionne pour VOTRE famille",
+        "PDF imprimable — à garder dans votre trousse de premiers secours",
       ],
     },
   ];
@@ -70,13 +70,13 @@ const BonusSection = () => {
         <ScrollReveal>
           <p className="text-center text-sm tracking-widest uppercase text-gold-light mb-2">
             <Gift className="inline w-4 h-4 mr-1" />
-            BONUS EXCLUSIFS — DISPONIBLES UNIQUEMENT AUJOURD'HUI
+            INCLUS GRATUITEMENT — UNIQUEMENT AVEC CETTE OFFRE
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-2 text-gold">
-            4 armes supplémentaires pour votre autonomie
+            4 guides stratégiques pour une autonomie TOTALE
           </h2>
           <p className="text-center text-parchment mb-10 text-lg">
-            Valeur totale : {totalBonusValue} — <strong className="text-gold">OFFERTS</strong> si vous agissez maintenant
+            Valeur réelle : {totalBonusValue} — <strong className="text-gold">OFFERTS</strong> aujourd'hui. Demain, ils seront vendus séparément.
           </p>
         </ScrollReveal>
 
