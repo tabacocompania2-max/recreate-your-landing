@@ -37,6 +37,9 @@ const HeroSection = () => (
             src={ebookCover}
             alt="Pharmacie de Grand-Mère — Guide complet PDF avec 250 remèdes naturels"
             className="mx-auto w-64 md:w-72 rounded-lg shadow-2xl"
+            fetchPriority="high"
+            width={288}
+            height={288}
           />
         </div>
       </ScrollReveal>
