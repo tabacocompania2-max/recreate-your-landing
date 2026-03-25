@@ -1,6 +1,6 @@
 import ScrollReveal from '@/components/ScrollReveal';
-import ebookCover from '@/assets/ebook-cover.jpg';
-import heroBg from '@/assets/hero-bg.jpg';
+import ebookCover from '@/assets/ebook-cover.webp';
+import heroBg from '@/assets/hero-bg.webp';
 import { Lock, Users, Star, BookOpen } from 'lucide-react';
 
 const HeroSection = () => (

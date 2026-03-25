@@ -1,9 +1,9 @@
 import ScrollReveal from '@/components/ScrollReveal';
-import bonusGuides from '@/assets/bonus-guides.jpg';
-import bonusCalendar from '@/assets/bonus-calendar.jpg';
-import bonusRegional from '@/assets/bonus-regional.jpg';
-import bonusSeasons from '@/assets/bonus-seasons.jpg';
-import bonusTemplates from '@/assets/bonus-templates.jpg';
+import bonusGuides from '@/assets/bonus-guides.webp';
+import bonusCalendar from '@/assets/bonus-calendar.webp';
+import bonusRegional from '@/assets/bonus-regional.webp';
+import bonusSeasons from '@/assets/bonus-seasons.webp';
+import bonusTemplates from '@/assets/bonus-templates.webp';
 import { Calendar, MapPin, Sun, FileText, Check, Gift } from 'lucide-react';
 
 const BonusSection = () => {

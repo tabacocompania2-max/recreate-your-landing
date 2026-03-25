@@ -1,5 +1,5 @@
 import ScrollReveal from '@/components/ScrollReveal';
-import guaranteeBadge from '@/assets/guarantee-badge.png';
+import guaranteeBadge from '@/assets/guarantee-badge.webp';
 
 const GuaranteeSection = () => (
   <section className="py-16 px-4 bg-wood">
