@@ -1,6 +1,6 @@
 import ScrollReveal from '@/components/ScrollReveal';
-import frenchKitchen from '@/assets/french-kitchen.jpg';
-import grandmotherHerbs from '@/assets/grandmother-herbs.jpg';
+import frenchKitchen from '@/assets/french-kitchen.webp';
+import grandmotherHerbs from '@/assets/grandmother-herbs.webp';
 
 const StorySection = () => (
   <section className="py-16 px-4 bg-wood">

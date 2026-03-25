@@ -1,6 +1,6 @@
 import ScrollReveal from '@/components/ScrollReveal';
-import handsPreparing from '@/assets/hands-preparing.jpg';
-import apothecaryShelf from '@/assets/apothecary-shelf.jpg';
+import handsPreparing from '@/assets/hands-preparing.webp';
+import apothecaryShelf from '@/assets/apothecary-shelf.webp';
 import { AlertTriangle } from 'lucide-react';
 
 const ProblemSection = () => (

@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { X } from 'lucide-react';
-import ebookCover from '@/assets/ebook-cover.jpg';
+import ebookCover from '@/assets/ebook-cover.webp';
 
 const COUPON_CODE = 'X24BL44';
 const COUNTDOWN_SECONDS = 7 * 60;

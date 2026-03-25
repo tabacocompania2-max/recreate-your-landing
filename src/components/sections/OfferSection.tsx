@@ -1,5 +1,5 @@
 import ScrollReveal from '@/components/ScrollReveal';
-import ebookCover from '@/assets/ebook-cover.jpg';
+import ebookCover from '@/assets/ebook-cover.webp';
 import { Check, Lock, ArrowRight } from 'lucide-react';
 
 interface OfferSectionProps {

@@ -1,6 +1,6 @@
 import ScrollReveal from '@/components/ScrollReveal';
-import herbsFlatlay from '@/assets/herbs-flatlay.jpg';
-import herbsCollection from '@/assets/herbs-collection.jpg';
+import herbsFlatlay from '@/assets/herbs-flatlay.webp';
+import herbsCollection from '@/assets/herbs-collection.webp';
 import { Heart, Zap, Leaf, Shield, Star, Brain, Droplets, Flower2 } from 'lucide-react';
 
 const WhatsInsideSection = () => {
