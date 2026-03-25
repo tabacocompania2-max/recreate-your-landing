@@ -13,33 +13,29 @@ const HeroSection = () => (
     }}
   >
     <div className="container max-w-3xl mx-auto text-center">
-      <ScrollReveal>
-        <p className="text-gold-light text-sm tracking-widest uppercase mb-4">
-          🌿 Le guide que la médecine moderne ne veut pas que vous ayez
-        </p>
-      </ScrollReveal>
+      {/* Hero LCP content rendered without ScrollReveal to avoid hidden state delaying LCP */}
+      <p className="text-gold-light text-sm tracking-widest uppercase mb-4">
+        🌿 Le guide que la médecine moderne ne veut pas que vous ayez
+      </p>
 
-      <ScrollReveal delay={100}>
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-          La{' '}<span className="gold-text-gradient">Pharmacie de Grand-Mère</span>
-        </h1>
-      </ScrollReveal>
+      <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+        La{' '}<span className="gold-text-gradient">Pharmacie de Grand-Mère</span>
+      </h1>
 
-      <ScrollReveal delay={200}>
-        <p className="text-lg text-parchment mb-10 max-w-2xl mx-auto leading-relaxed">
-          En 2024, <strong className="text-gold">plus de 3 000 médicaments étaient en rupture de stock en France.</strong> Le paracétamol, l'amoxicilline, l'ibuprofène… les bases. Votre grand-mère, elle, n'a jamais eu besoin d'une pharmacie. Elle savait soigner une fièvre avec 3 ingrédients de sa cuisine. <em>Ce savoir meurt avec sa génération.</em> Ce guide le sauve.
-        </p>
-      </ScrollReveal>
+      <p className="text-lg text-parchment mb-10 max-w-2xl mx-auto leading-relaxed">
+        En 2024, <strong className="text-gold">plus de 3 000 médicaments étaient en rupture de stock en France.</strong> Le paracétamol, l'amoxicilline, l'ibuprofène… les bases. Votre grand-mère, elle, n'a jamais eu besoin d'une pharmacie. Elle savait soigner une fièvre avec 3 ingrédients de sa cuisine. <em>Ce savoir meurt avec sa génération.</em> Ce guide le sauve.
+      </p>
 
-      <ScrollReveal delay={300}>
-        <div className="mb-10">
-          <img
-            src={ebookCover}
-            alt="Pharmacie de Grand-Mère — Guide complet PDF avec 250 remèdes naturels"
-            className="mx-auto w-64 md:w-72 rounded-lg shadow-2xl"
-          />
-        </div>
-      </ScrollReveal>
+      <div className="mb-10">
+        <img
+          src={ebookCover}
+          alt="Pharmacie de Grand-Mère — Guide complet PDF avec 250 remèdes naturels"
+          className="mx-auto w-64 md:w-72 rounded-lg shadow-2xl"
+          fetchPriority="high"
+          width={288}
+          height={288}
+        />
+      </div>
 
       <ScrollReveal delay={400}>
         <div className="flex flex-wrap justify-center gap-6 mb-10">
