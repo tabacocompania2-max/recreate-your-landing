@@ -55,7 +55,7 @@ const CouponPopup = () => {
               <h3 className="text-sm text-parchment mb-1">⚠️ Uniquement le {dateStr} — ensuite c'est terminé</h3>
               <h2 className="text-xl font-bold text-gold mb-3">Quelqu'un vient d'annuler — sa place est disponible au prix réduit</h2>
               <p className="text-parchment text-sm mb-4">
-                250 remèdes + 4 bonus pour 15,00 € au lieu de 113,90 €. Ce code expire. Aucune prolongation possible.
+                250 remèdes + 4 bonus pour 15,00 € au lieu de 67,00 €. Ce code expire. Aucune prolongation possible.
               </p>
 
               <p className="text-xs text-muted-foreground mb-4">
@@ -94,7 +94,7 @@ const CouponPopup = () => {
 
           <div className="flex items-center justify-between mt-3">
             <div className="flex items-baseline gap-2">
-              <span className="text-muted-foreground line-through text-sm">113,90 €</span>
+              <span className="text-muted-foreground line-through text-sm">67,00 €</span>
               <span className="text-gold font-bold text-lg">15,00 €</span>
             </div>
           </div>
