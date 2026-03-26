@@ -1,70 +1,86 @@
-import ScrollReveal from '@/components/ScrollReveal';
 import ebookCover from '@/assets/ebook-cover.webp';
 import heroBg from '@/assets/hero-bg.webp';
-import { Lock, Users, Star, BookOpen } from 'lucide-react';
+import { Lock, Star, Users } from 'lucide-react';
 
 const HeroSection = () => (
   <section
-    className="relative py-16 px-4 overflow-hidden"
+    className="relative py-10 px-4 overflow-hidden"
     style={{
       backgroundImage: `linear-gradient(to bottom, hsl(25 20% 8% / 0.85), hsl(25 15% 10% / 0.95)), url(${heroBg})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
     }}
   >
-    <div className="container max-w-3xl mx-auto text-center">
-      {/* Hero LCP content rendered without ScrollReveal to avoid hidden state delaying LCP */}
-      <p className="text-gold-light text-sm tracking-widest uppercase mb-4">
-        🌿 Le guide que la médecine moderne ne veut pas que vous ayez
+    <div className="container max-w-2xl mx-auto text-center">
+      <p className="text-2xl mb-2">
+        😮 <span className="text-gold-light text-sm tracking-widest uppercase">Vous l'avez demandé, nous l'avons fait ! 🇫🇷</span>
       </p>
 
-      <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+      <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-2">
         La{' '}<span className="gold-text-gradient">Pharmacie de Grand-Mère</span>
       </h1>
+      <p className="text-gold-light text-lg mb-4">est enfin disponible en français !</p>
 
-      <p className="text-lg text-parchment mb-10 max-w-2xl mx-auto leading-relaxed">
-        En 2024, <strong className="text-gold">plus de 3 000 médicaments étaient en rupture de stock en France.</strong> Le paracétamol, l'amoxicilline, l'ibuprofène… les bases. Votre grand-mère, elle, n'a jamais eu besoin d'une pharmacie. Elle savait soigner une fièvre avec 3 ingrédients de sa cuisine. <em>Ce savoir meurt avec sa génération.</em> Ce guide le sauve.
-      </p>
-
-      <div className="mb-10">
+      <div className="flex flex-col md:flex-row items-center gap-6 mb-6">
         <img
           src={ebookCover}
           alt="Pharmacie de Grand-Mère — Guide complet PDF avec 250 remèdes naturels"
-          className="mx-auto w-64 md:w-72 rounded-lg shadow-2xl"
+          className="w-48 md:w-56 rounded-lg shadow-2xl flex-shrink-0"
           fetchPriority="high"
-          width={288}
-          height={288}
+          width={224}
+          height={224}
         />
+
+        <div className="text-left space-y-1.5">
+          <p className="text-parchment font-semibold text-sm mb-2">🌿 250 remèdes naturels transmis de génération en génération</p>
+          <p className="text-parchment text-sm mb-1 font-medium">Voici un aperçu de ce que vous allez découvrir :</p>
+          {[
+            'Détox antiparasitaire',
+            '« Ibuprofène » naturel',
+            'Anti-douleur maison',
+            'Infusion pour une tension saine',
+            'Sérum pour la pousse des cheveux',
+            'Antibiotique de grand-mère',
+            'Sirop Amish contre la toux',
+          ].map((item, i) => (
+            <p key={i} className="text-parchment text-sm flex items-center gap-2">
+              <span className="text-herb-green">✅</span> {item}
+            </p>
+          ))}
+          <p className="text-gold font-bold text-sm flex items-center gap-2 pt-1">
+            <span className="text-herb-green">✅</span> Et bien plus encore à l'intérieur...
+          </p>
+        </div>
       </div>
 
-      <ScrollReveal delay={400}>
-        <div className="flex flex-wrap justify-center gap-6 mb-10">
-          {[
-            { icon: BookOpen, label: '250 remèdes vérifiés' },
-            { icon: Users, label: '+2 400 familles équipées' },
-            { icon: Star, label: '4.9/5 (avis vérifiés)' },
-          ].map((stat, i) => (
-            <div key={i} className="flex items-center gap-2 text-gold-light">
-              <stat.icon className="w-5 h-5" />
-              <span className="text-sm font-medium">{stat.label}</span>
-            </div>
-          ))}
+      <div className="flex flex-wrap justify-center gap-6 mb-4">
+        <div className="flex items-center gap-2 text-gold-light">
+          <Users className="w-5 h-5" />
+          <span className="text-sm font-bold">+2 400 familles équipées</span>
         </div>
-      </ScrollReveal>
+        <div className="flex items-center gap-2 text-gold-light">
+          <Star className="w-5 h-5 fill-current" />
+          <span className="text-sm font-bold">4.9/5 (avis vérifiés)</span>
+        </div>
+      </div>
 
-      <ScrollReveal delay={500}>
-        <a
-          href="#offer"
-          onClick={(e) => { e.preventDefault(); document.getElementById('offer')?.scrollIntoView({ behavior: 'smooth' }); }}
-          className="cta-button inline-block text-center no-underline"
-        >
-          📥 ACCÉDER AUX 250 REMÈDES MAINTENANT
-        </a>
-        <p className="mt-4 text-sm text-muted-foreground flex items-center justify-center gap-2">
-          <Lock className="w-4 h-4" />
-          Accès instantané par e-mail — Téléchargement en 30 secondes
-        </p>
-      </ScrollReveal>
+      <div className="flex items-center justify-center gap-2 text-gold-light text-sm font-semibold mb-4">
+        <span>⏰ Code unique : <strong className="text-gold">X24BL44</strong></span>
+        <span>—</span>
+        <span>Cette offre expire BIENTÔT</span>
+      </div>
+
+      <a
+        href="#offer"
+        onClick={(e) => { e.preventDefault(); document.getElementById('offer')?.scrollIntoView({ behavior: 'smooth' }); }}
+        className="cta-button-green inline-block text-center no-underline text-lg md:text-xl"
+      >
+        📥 ACCÉDER AUX 250 REMÈDES MAINTENANT
+      </a>
+      <p className="mt-3 text-sm text-muted-foreground flex items-center justify-center gap-2">
+        <Lock className="w-4 h-4" />
+        Accès instantané par email — Téléchargement en 30 secondes
+      </p>
     </div>
   </section>
 );
