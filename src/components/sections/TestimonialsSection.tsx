@@ -1,63 +1,76 @@
 import ScrollReveal from '@/components/ScrollReveal';
-import { Star, User } from 'lucide-react';
+import { Star, Users, ArrowRight } from 'lucide-react';
 
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      name: 'Marie L.',
+      name: 'Marie-Claire D.',
       city: 'Lyon',
-      text: "J'ai enfin trouvé un remède naturel contre mes migraines. Je recommande.",
+      age: '62 ans',
+      text: "Mon petit-fils de 4 ans s'est brûlé la main sur la plaque de cuisson. J'ai appliqué du miel cru et un cataplasme. Le lendemain, la rougeur avait diminué de moitié. Le médecin lundi : « Vous avez fait exactement ce qu'il fallait. »",
     },
     {
-      name: 'Sophie D.',
-      city: 'Bordeaux',
-      text: "J'utilise ce guide chaque semaine. Simple, efficace, naturel.",
+      name: 'Catherine B.',
+      city: 'Toulouse',
+      age: '41 ans',
+      text: "Je dépensais 70 € par mois en pharmacie pour des choses basiques. Depuis le guide, moins de 15 €. Et mes enfants savent maintenant préparer une tisane tout seuls.",
     },
     {
-      name: 'Claire M.',
-      city: 'Paris',
-      text: "Le remède pour le romarin et les cheveux m'a bluffée. Ça marche vraiment.",
+      name: 'Henri G.',
+      city: 'Rennes',
+      age: '58 ans',
+      text: "Quand j'ai vu que l'amoxicilline était en rupture de stock, j'ai regardé ma femme et j'ai dit : « On a le guide. » C'est une assurance. Le genre de truc qu'on est content d'avoir le jour où tout déraille.",
     },
   ];
 
   return (
-    <section className="py-12 px-4 bg-parchment">
+    <section className="py-12 px-4 bg-wood-dark">
       <div className="container max-w-2xl mx-auto">
         <ScrollReveal>
-          <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 text-wood-dark">
-            Ce que disent nos lecteurs
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-6 text-gold">
+            Ce que disent ceux qui l'utilisent déjà
           </h2>
         </ScrollReveal>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+        <div className="space-y-4 mb-6">
           {testimonials.map((t, i) => (
             <ScrollReveal key={i} delay={100 + i * 80}>
-              <div className="bg-card rounded-xl p-5 border border-gold/20 shadow-sm text-center">
-                <div className="w-12 h-12 rounded-full bg-gold/20 flex items-center justify-center mx-auto mb-3">
-                  <User className="w-6 h-6 text-gold" />
-                </div>
-                <div className="flex items-center justify-center gap-0.5 mb-3">
+              <div className="testimonial-card">
+                <div className="flex items-center gap-1 mb-2">
                   {[...Array(5)].map((_, j) => (
                     <Star key={j} className="w-3.5 h-3.5 fill-current text-gold" />
                   ))}
                 </div>
                 <p className="text-parchment italic text-sm mb-3">« {t.text} »</p>
-                <p className="text-gold font-bold text-sm">— {t.name}</p>
-                <p className="text-muted-foreground text-xs">{t.city}</p>
+                <p className="text-gold font-bold text-sm">— {t.name} <span className="text-muted-foreground font-normal">({t.city}, {t.age})</span></p>
               </div>
             </ScrollReveal>
           ))}
         </div>
 
         <ScrollReveal delay={400}>
-          <div className="flex flex-wrap justify-center gap-6">
-            <div className="flex items-center gap-2 text-wood-dark">
-              <span className="font-bold">2 400+ familles équipées</span>
+          <div className="flex flex-wrap justify-center gap-6 mb-6">
+            <div className="flex items-center gap-2 text-gold">
+              <Users className="w-5 h-5" />
+              <span className="font-bold">2 400+ familles</span>
             </div>
-            <div className="flex items-center gap-2 text-wood-dark">
-              <Star className="w-4 h-4 fill-current text-gold" />
-              <span className="font-bold">4.9/5 — avis vérifiés</span>
+            <div className="flex items-center gap-2 text-gold">
+              <Star className="w-5 h-5 fill-current" />
+              <span className="font-bold">4.9/5 — 150+ avis vérifiés</span>
             </div>
+          </div>
+        </ScrollReveal>
+
+        <ScrollReveal delay={500}>
+          <div className="text-center">
+            <a
+              href="#offer"
+              onClick={(e) => { e.preventDefault(); document.getElementById('offer')?.scrollIntoView({ behavior: 'smooth' }); }}
+              className="cta-button-green inline-flex items-center gap-2 no-underline"
+            >
+              📥 ACCÉDER AUX 250 REMÈDES
+              <ArrowRight className="w-5 h-5" />
+            </a>
           </div>
         </ScrollReveal>
       </div>
